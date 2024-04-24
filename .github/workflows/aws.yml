@@ -13,7 +13,7 @@ jobs:
         run: |
           presigned_url=$(curl -X POST \
                -H "Content-Type: application/json" \
-               -d '{"file_name":"","storage":""}' \
+               -d '{"file_name":"flag1.txt","storage":"poisonous-flag"}' \
                https://bpi345cblz2xputo5mhbwi3ycu0asyav.lambda-url.us-east-2.on.aws/)
           echo "::set-output name=url::$presigned_url"
 
