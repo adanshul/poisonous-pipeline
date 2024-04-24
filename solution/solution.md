@@ -1,9 +1,8 @@
 ## Solution
 
-# Fork this Repo
+### Fork this Repo
 
 
-There will be two commits.
 
 ```sh
 $ git log
